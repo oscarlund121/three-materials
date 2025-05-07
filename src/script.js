@@ -121,11 +121,11 @@ material.roughness = 0
 material.map = doorColorTexture
 material.aoMap = doorAmbientOcclusionTexture
 material.displacementMap = doorHeightTexture
-material.displacementScale = 0.1
+material.displacementScale = 1
 material.metalnessMap = doorMetalnessTexture
 material.roughnessMap = doorRoughnessTexture
 material.normalMap = doorNormalTexture
-material.normalScale.set(0.5, 0.5)
+material.normalScale.set(1, 1)
 material.transparent = true
 material.alphaMap = doorAlphaTexture
 
